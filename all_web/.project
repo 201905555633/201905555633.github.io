@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>web</name>
+	<name>all_web</name>
 	<comment>Create By HBuilder</comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1569389484480</id>
+			<id>1569938475879</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
