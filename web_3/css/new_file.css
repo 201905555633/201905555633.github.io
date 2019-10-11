@@ -1,0 +1,185 @@
+.head {
+	height: 200px;
+	width: 100%;
+	background: white;
+}
+
+.head1 {
+	height: 20px;
+	width: 100%;
+	background: #000033;
+}
+
+.head2 {
+	height: 180px;
+	width: 880px;
+	margin: 0 auto;
+}
+
+.head21 {
+	height: 180px;
+	width: 180px;
+	background: aliceblue;
+	float: left;
+}
+
+.head22 {
+	height: 180px;
+	width: 700px;
+	float: left;
+}
+
+li {
+	color: #FFE4C4;
+}
+
+.head221 {
+	height: 50px;
+	width: 700px;
+	margin-top: 10px;
+	background: #003300;
+	float: left;
+}
+
+.head222 {
+	height: 50px;
+	width: 700px;
+	margin-top: 10px;
+	background: #006600;
+	float: left;
+}
+
+.head223 {
+	height: 50px;
+	width: 700px;
+	margin-top: 10px;
+	background: #009900;
+	float: left;
+}
+
+.fu {
+	height: 30px;
+	width: 880px;
+	margin: 10px auto;
+	background: #FF0000;
+	float: ;
+}
+
+.yanse {
+	color: #FFE4C4;
+}
+
+.content {
+	height: 1g00px;
+	width: 880px;
+	background: #FFE4C4;
+	margin: 10px auto;
+}
+
+.kexin {
+	height: 416px;
+	width: 880px;
+	background: #FFE4C4;
+}
+
+.jitizhao {
+	width: 716px;
+	height: 416px;
+	margin-right: 14px;
+	float: left;
+}
+
+.miaoshu1 {
+	width: 30px;
+	margin-right: 50px;
+	float: left;
+}
+
+.yi {
+	color: #003300;
+}
+
+.miaoshu2 {
+	width: 20px;
+	margin-right: 10px;
+	float: left;
+}
+
+.er {
+	color: #009900;
+}
+
+.miaoshu3 {
+	width: 10px;
+	float: left;
+}
+
+.san {
+	color: red;
+}
+
+.riji1 {
+	width: 880px;
+	height: 300px;
+	background: #003300;
+	margin-top: 10px;
+	float: left;
+}
+
+.wenzi1 {
+	width: 700px;
+	height: 300px;
+	margin-right: 80px;
+	float: left;
+}
+.biaoti1{
+	width: 100px;
+	height: 400px;
+	float: left;
+}
+
+.riji2 {
+	width: 880px;
+	height: 450px;
+	background: #006600;
+	margin-top: 10px;
+	float: left;
+}
+.wenzi2 {
+	width: 700px;
+	height: 450px;
+	float: left;
+}
+.biaoti2{
+	width: 100px;
+	height: 450px;
+    margin-right: 40px;
+    margin-left: 40px;
+	float: left;
+}
+.riji3 {
+	width: 880px;
+	height: 300px;
+	background: #003300;
+	margin-top: 10px;
+	float: left;
+}
+.wenzi3{
+	width: 700px;
+	height: 300px;
+	margin-right: 80px;
+	float: left;
+}
+.biaoti3{
+	width: 100px;
+	height: 300px;
+	float: left;
+}
+h3{
+	color: #FFE4C4;
+}
+h1{
+	color: red;
+	font: "楷体";
+	
+}
