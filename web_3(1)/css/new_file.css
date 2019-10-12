@@ -1,0 +1,82 @@
+.F1{
+	width: 880px;
+	height: 100px;
+	background: antiquewhite;
+	margin: 10px auto;
+}
+.F2{
+	width: 880px;
+	margin: 10px auto;
+}
+.F2-1{
+	width: 240px;
+	height: 880px;
+	margin-right:10px;
+	background: cornsilk;
+	float: left;
+}
+.F2-2{
+	width: 90px;
+	height: 880px;
+	margin-right:10px;
+	background: cornsilk;
+	float: left;
+}
+.F2-3{
+	width: 530px;
+	height: 880px;
+	float: left;
+}
+.F2-3-1{
+	width: 540px;
+	height: 400px;
+	margin-bottom:60px;
+	background: dimgrey;
+	float: left;
+}
+.F2-3-1-1{
+	width: 300px;
+	height: 400px;
+	margin-right:10px;
+	float: left;
+}
+.F2-3-1-2{
+	width: 220px;
+	height: 400px;
+	margin-right:10px;
+	float: left;
+}
+.li2{
+	width: 220px;
+	height: 180px;
+	margin-right:10px;
+	float: left;
+}
+.li3{
+	width: 220px;
+	height: 220px;
+	margin-right:10px;
+	float: left;
+}
+.F2-3-2{
+	width: 540px;
+	height: 420px;
+	margin-bottom:60px;
+	background: cadetblue;
+	float: left;
+}
+.F2-3-2-1{
+	width: 70px;
+	height: 420px;
+	margin-right:10px;
+	float: left;
+}
+.F2-3-2-2{
+	width: 450px;
+	height: 420px;
+	margin-right:10px;
+	float: left;
+}
+h1{
+	color: darkgreen;
+}
