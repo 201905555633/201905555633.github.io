@@ -37,14 +37,17 @@
 .table2{
 	width: 120px;
 	height: 40px;
-	margin-top: ;
-	margin-bottom: ;
+	margin-top: 100px;
+	margin-bottom: 200px;
+	background: black;
+	float: left;
 }
 .table3{
 	width: 120px;
 	height: 40px;
-	margin-top: ;
-	margin-bottom: ;
+	margin-bottom: 100px;
+	background: black;
+	float: left;
 }
 .f2-2{
 	width: 600px;
@@ -73,8 +76,75 @@
 .table4{
 	width: 120px;
 	height: 40px;
+	margin-top: 100px;
+	margin-bottom: 200px;
+	background: black;
+	float: left;
 }
 .table5{
 	width: 120px;
 	height: 40px;
+	margin-bottom: 100px;
+	background: black;
+	float: left;
 }
+.f3{
+	width: 880px;
+	margin: 0 auto;
+}
+.f3-1{
+	width: 220px;
+	height: 1040px;
+	margin-right: 20px;
+	float: left;
+}
+.word1{
+	width: 220px;
+	height: 400px;
+	margin-bottom: 20px;
+	background: black;
+	float: left;
+}
+.photo2{
+	width: 220px;
+	height: 200px;
+	margin-bottom: 20px;
+	background: black;
+	float: left;
+}
+.word2{
+	width: 220px;
+	height: 400px;
+	margin-bottom: 20px;
+	background: black;
+	float: left;
+}
+.f3-2{
+	width: 400px;
+	height: 1040px;
+	margin-right: 20px;
+	background: black;
+	float: left;
+}
+.word3{
+	width: 220px;
+	height: 400px;
+	margin-bottom: 20px;
+	background: black;
+	float: left;
+}
+.photo3{
+	width: 220px;
+	height: 200px;
+	margin-bottom: 20px;
+	background: black;
+	float: left;
+}
+.word4{
+	width: 220px;
+	height: 400px;
+	margin-bottom: 20px;
+	background: black;
+	float: left;
+}
+
