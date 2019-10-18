@@ -1,0 +1,16 @@
+a:link { color:red; text-decoration:underline; }
+a:visited { color:black; text-decoration:none; }
+a:active { color:chartreuse; text-decoration:none; }
+a:hover { color: chartreuse; text-decoration:none; }
+.f{
+	width: 900px;
+	height: 900px;
+	margin: 0 auto;
+}
+.f1{
+	width: 500px ;
+	height: 800px;
+	background-color: black;
+	opacity: 0.8;
+	background-image: url(../img/-3396d39f62e20356.jpg);
+}
