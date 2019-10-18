@@ -10,7 +10,7 @@ a:hover { color: chartreuse; text-decoration:none; }
 .f1{
 	width: 500px ;
 	height: 800px;
-	background-color: black;
-	opacity: 0.8;
-	background-image: url(../img/-3396d39f62e20356.jpg);
+	background-color: black ;
+	background-color: rgba(0,0,0,0.5);
+	background-image: url(../img/yb2.jpg);
 }
