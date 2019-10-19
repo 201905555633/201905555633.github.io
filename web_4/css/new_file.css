@@ -1,3 +1,23 @@
+a{
+	text-decoration: none;
+	align-content: center;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: x-large;
+	display:block;
+}
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:active {
+	color: gray;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+	text-decoration: none;
+}
 .f1{
 	width: 880px;
 	height: 320px;
@@ -5,17 +25,28 @@
 }
 .f1-1{
 	width: 880px;
-	height: 10px;
+	height: 50px;
 	background: black;
-	margin-bottom: 10px;
+	background-color: rgba(0, 0, 0, 0.2);
+	margin-bottom: 30px;
+	margin-top:10px ;
 	float: left;
+	box-shadow: 10px 10px 5px #888888;
 }
 .f1-2{
 	width: 880px;
-	height: 300px;
+	height: 400px;
 	background: black;
-	margin: 0 auto 10px auto;
+	background-color: rgba(0, 0, 0, 0.2);
+	margin: 0 auto 30px auto;
 	float: left;
+	box-shadow: 10px 10px 5px #888888;
+}
+li{
+	float: left;
+	width: 120px;
+	height: 40px;
+	text-align: center;
 }
 .title{
 	
@@ -40,14 +71,34 @@
 	margin-top: 100px;
 	margin-bottom: 200px;
 	background: black;
+	background-color: rgba(0, 0, 0, 0.2);
 	float: left;
+	box-shadow: 10px 10px 5px #888888;
+}
+.table2:hover{
+	background-color: black;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.table3:hover{
+	background-color: black;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.table4:hover{
+	background-color: black;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.table5:hover{
+	background-color: black;
+	background-color: rgba(0, 0, 0, 0.4);
 }
 .table3{
 	width: 120px;
 	height: 40px;
 	margin-bottom: 100px;
 	background: black;
+	background-color: rgba(0, 0, 0, 0.2);
 	float: left;
+	box-shadow: 10px 10px 5px #888888;
 }
 .f2-2{
 	width: 600px;
@@ -58,15 +109,20 @@
 .table1{
 	width: 600px;
 	height: 40px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	background: black;
+	background-color: rgba(0, 0, 0, 0.2);
 	float: left;
+	box-shadow: 10px 10px 5px #888888;
 }
 .video{
 	width: 600px;
 	height: 400px;
 	background: black;
+	background-color: rgba(0, 0, 0, 0.2);
 	float: left;
+	margin-bottom: 20px;
+	box-shadow: 10px 10px 5px #888888;
 }
 .f2-3{
 	width: 120px;
@@ -79,19 +135,99 @@
 	margin-top: 100px;
 	margin-bottom: 200px;
 	background: black;
+	background-color: rgba(0, 0, 0, 0.2);
 	float: left;
+	box-shadow: 10px 10px 5px #888888;
 }
 .table5{
 	width: 120px;
 	height: 40px;
 	margin-bottom: 100px;
 	background: black;
+	background-color: rgba(0, 0, 0, 0.2);
 	float: left;
+	box-shadow: 10px 10px 5px #888888;
 }
 .f3{
 	width: 880px;
-	margin: 0 auto;
+	margin: 20px auto 20px auto;
 }
+.box1{
+	width: 500px;
+	height: 720px;
+	margin-right:80px ;
+	background: black;
+	background-color: rgba(0, 0, 0, 0.2);
+	float: left;
+	box-shadow: 10px 10px 5px #888888;
+}
+h4{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.box2{
+	width: 300px;
+	height: 200px;
+	margin-top:30px ;
+	background: black;
+	background-color: rgba(0, 0, 0, 0.2);
+	float: left;
+	box-shadow: 10px 10px 5px #888888;
+}
+.box2{
+	width: 300px;
+	height: 200px;
+	margin-top:30px ;
+	background: black;
+	background-color: rgba(0, 0, 0, 0.2);
+	float: left;
+	box-shadow: 10px 10px 5px #888888;
+}
+.box2:hover{
+	border: 3px;
+	background-color: black;
+	background-image: url(../img/food2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.box3{
+	width: 300px;
+	height: 200px;
+	margin-top:30px ;
+	background: black;
+	background-color: rgba(0, 0, 0, 0.2);
+	float: left;
+	box-shadow: 10px 10px 5px #888888;
+}
+.box3:hover{
+	border: 3px;
+	background-color: black;
+	background-image: url(../img/9.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.box4{
+	width: 300px;
+	height: 200px;
+	margin-top:30px ;
+	background: black;
+	background-color: rgba(0, 0, 0, 0.2);
+	float: left;
+	box-shadow: 10px 10px 5px #888888;
+}
+.box4:hover{
+	border: 3px;
+	background-color: black;
+	background-image: url(../img/；；.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+h1:hover{
+	color: black;
+	color: rgba(0,0,0,0);
+}
+	
+/*}
 .f3-1{
 	width: 220px;
 	height: 1040px;
@@ -103,48 +239,84 @@
 	height: 400px;
 	margin-bottom: 20px;
 	background: black;
+	background-color: rgba(0, 0, 0, 0.2);
 	float: left;
+	box-shadow: 10px 10px 5px #888888;
+}
+h1{
+	color: dark;
+	color: rgba(0,0,0,0.6);
+}
+h1:hover{
+	color: dark;
+}
+.food1:hover{
+     width: 600px;	
+     height: 500px;
+     background-image: url(../img/food1.jpg);
+     z-index:2;
+     background-size: contain;
+     background-repeat: no-repeat;
+}
+.food2:hover{
+     width: 600px;	
+     height: 500px;
+     background-image: url(../img/food2.jpg);
+     z-index:2;
+     background-size: contain;
+     background-repeat: no-repeat;
+}
+.food3:hover{
+     width: 600px;	
+     height: 500px;
+     background-image: url(../img/food3.jpg);
+     z-index:1;
+     background-size: contain;
+     background-repeat: no-repeat;
 }
 .photo2{
 	width: 220px;
 	height: 200px;
 	margin-bottom: 20px;
 	background: black;
+	background-color: rgba(0, 0, 0, 0.2);
 	float: left;
+	box-shadow: 10px 10px 5px #888888;
 }
-.word2{
-	width: 220px;
-	height: 400px;
-	margin-bottom: 20px;
-	background: black;
-	float: left;
+.sence3:hover{
+     width: 600px;	
+     height: 500px;
+     background-image: url(../img/sence2.png);
+     z-index:1;
+     background-size: contain;
+     background-repeat: no-repeat;
 }
 .f3-2{
 	width: 400px;
-	height: 1040px;
+	height: 620px;
 	margin-right: 20px;
 	background: black;
+	background-color: rgba(0, 0, 0, 0.2);
 	float: left;
+	box-shadow: 10px 10px 5px #888888;
 }
 .word3{
 	width: 220px;
 	height: 400px;
 	margin-bottom: 20px;
 	background: black;
+	background-color: rgba(0, 0, 0, 0.2);
 	float: left;
+	box-shadow: 10px 10px 5px #888888;
 }
 .photo3{
 	width: 220px;
 	height: 200px;
 	margin-bottom: 20px;
 	background: black;
+	background-color: rgba(0, 0, 0, 0.2);
 	float: left;
-}
-.word4{
-	width: 220px;
-	height: 400px;
-	margin-bottom: 20px;
-	background: black;
-	float: left;
-}
+	box-shadow: 10px 10px 5px #888888;
+}*/
+
 

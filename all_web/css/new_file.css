@@ -9,12 +9,12 @@ a:visited {
 }
 
 a:active {
-	color: chartreuse;
+	color: brown;
 	text-decoration: none;
 }
 
 a:hover {
-	color: chartreuse;
+	color: brown;
 	text-decoration: none;
 }
 .f0{
@@ -44,7 +44,6 @@ a:hover {
 	margin-right: 50px;
 	float: left;
 }
-
 .f1:hover {
 	border: 3px;
 	background-color: black;
