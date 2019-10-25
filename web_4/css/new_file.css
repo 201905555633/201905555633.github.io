@@ -226,5 +226,24 @@ h1:hover{
 	color: black;
 	color: rgba(0,0,0,0);
 }
-
+.thef{
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+}
+.thes{
+	width: 600px;
+	height: 6400px;
+	margin: 0 auto;
+}
+.thet{
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+}
+.the0{
+	width: 100%;
+	background-image: url(../img/00.png);
+	background-repeat: no-repeat;
+}
 
