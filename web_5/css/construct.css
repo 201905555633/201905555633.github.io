@@ -12,65 +12,91 @@ span {
 	width: 100%;
 	height: 30px;
 	background: antiquewhite;
-	margin: 10px auto 100px auto;
+	margin: 20px auto 100px auto;
 }
 
 .logo {
-	margin: 0 auto 10px auto;
+	margin: 0 auto 5px auto;
 	width: 250px;
 	height: 100px;
 	background: aquamarine;
 }
 
 .search {
-	width: 600px;
-	height: 50px;
-	background: beige;
+	width: 670px;
+	height: 40px;
 	margin: 0 auto;
 }
 
 #myInput {
 	background-image: url('https://static.runoob.com/images/mix/searchicon.png');
 	/* 搜索按钮 */
-	background-position: 10px 12px;
+	background-position: 10px 6px;
 	/* 定位搜索按钮 */
 	background-repeat: no-repeat;
 	/* 不重复图片 */
-	width: 400px;
+	width: 500px;
 	font-size: 16px;
-	padding: 12px 20px 12px 40px;
-	border: 3px solid crimson;
+	padding: 6px 20px 6px 40px;
+	border: 2px solid crimson;
+	float: left;
 }
 #myTable{
 	border-collapse: collapse; 
     width: 100px; 
-    border: 2px solid #ddd;
+    border: 2px solid crimson;
     font-size: 18px;
 }
 #myTable th, #myTable td {
-    text-align: left;
-    padding: 12px;
+    padding: 4px;
+    background: crimson;
 }
 
 #myTable tr {
     /* 表格添加边框 */
-    border-bottom: 1px solid #ddd; 
+    border-bottom: 2px solid crimson; 
+    background: ;
 }
 
 #myTable tr.header, #myTable tr:hover {
     /* 表头及鼠标移动过 tr 时添加背景 */
-    background-color: #f1f1f1;
+    background-color: crimson;
+    border: 4px solid white;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:active {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
 }
 .photo {
 	width: 120px;
 	height: 120px;
 	background: cadetblue;
-	margin: 120px auto 20px auto;
+	margin: 160px auto 10px auto;
 }
-
+.talk{
+	width: 150px;
+	height: 50px;
+	background: #FAEBD7;
+	margin: 0 auto;
+}
 .tool {
 	width: 600px;
-	height: 100px;
+	height: 50px;
 	background: beige;
-	margin: 0 auto;
+	margin: 10px auto;
 }
