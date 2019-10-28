@@ -229,21 +229,20 @@ h1:hover{
 .thef{
 	width: 600px;
 	height: 600px;
-	margin: 0 auto;
+	margin: 50px auto;
 }
 .thes{
 	width: 600px;
 	height: 6400px;
-	margin: 0 auto;
+	margin: 50px auto;
 }
 .thet{
 	width: 600px;
 	height: 600px;
-	margin: 0 auto;
+	margin: 50px auto;
 }
 .the0{
 	width: 100%;
-	background-image: url(../img/00.png);
-	background-repeat: no-repeat;
+	
 }
 
