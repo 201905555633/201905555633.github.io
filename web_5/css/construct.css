@@ -14,13 +14,39 @@ span {
 	margin: 20px auto 100px auto;
 }
 
-.intr {
+.intr{
 	float: right;
 	list-style: none;
 	width: 50px;
 	size: a3;
 }
-
+.teal{
+	float: left;
+	width: 100px;
+	list-style: none;
+	size: a3;
+}
+a.teal {
+	font-size: 12px;
+	text-align: center;
+	color: gainsboro;
+}
+li.teal1{
+	float: left;
+	list-style: none;
+	size: a3;
+}
+.teal2{
+	float: left;
+	width: 70px;
+	list-style: none;
+	size: a3;
+}
+a.teal2 {
+	font-size: 12px;
+	text-align: center;
+	color: gainsboro;
+}
 .dropdown {
 	float: right;
 	width: 60px;
@@ -30,13 +56,18 @@ span {
 	margin-right: 20px;
 }
 a.dropbtn {
-	font-size: 13px;
+	font-size: 15px;
 	text-align: center;
-	color: white;
+	text-decoration: none;
+	font-style: white;
 }
 a.intr {
 	font-size: 13px;
 	text-align: center;
+	color: gray;
+}
+a.intr1{
+	font-weight: 700;
 }
 .dropbtn {
 	color: white;
@@ -117,11 +148,9 @@ a.intr {
 	background-color: crimson;
 	border: 4px solid white;
 }
-
-a:link {
-	color: white;
+a.if{
+	text-decoration: none;
 }
-
 a:visited {
 	color: black;
 	text-decoration: none;
@@ -133,7 +162,7 @@ a:active {
 }
 
 a:hover {
-	color: white;
+	color: hotpink;
 	text-decoration: none;
 }
 
@@ -149,13 +178,16 @@ a:hover {
 	margin: 0 auto;
 }
 
-.tool {
-	width: 600px;
-	height: 50px;
-	background: beige;
-	margin: 10px auto;
+.tool1{
+	width: 400px;
+	height: 20px;
+	margin: 30px auto 10px auto;
 }
-
+.tool2{
+	width: 250px;
+	height: 30px;
+	margin: 0 auto;
+}
 h5 {
 	color: darkgray;
 }
