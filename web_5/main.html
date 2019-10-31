@@ -1,43 +1,156 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 	<head>
-		<meta charset="UTF-8">
-		<title>Fan.Sr的兴趣爱好</title>
-		<link rel="stylesheet" type="text/css" href="css/mine.css" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>我的兴趣爱好</title>
+		<style type="text/css">
+			#gallery {
+				width: 640px;
+				height: 750px;
+				margin: 0 auto;
+				position: relative;
+				font-family: verdana, arial, sans-serif;
+			}
+			
+			#gallery a.previous {
+				display: block;
+				height: 40px;
+				width: 32px;
+				background: url(click/previous.gif);
+				position: absolute;
+				left: 0;
+				top: 560px;
+			}
+			
+			#gallery a.next {
+				display: block;
+				height: 40px;
+				width: 32px;
+				background: url(click/next.gif);
+				position: absolute;
+				right: 0;
+				top: 560px;
+			}
+			
+			#gallery a b {
+				display: none;
+			}
+			
+			#gallery #fullsize {
+				position: absolute;
+				left: 0;
+				top: 0;
+				height: 800px;
+				width: 640px;
+				overflow: hidden;
+				text-align: center;
+			}
+			
+			#gallery #fullsize div {
+				width: 640px;
+				height: 900px;
+				padding-top: 10px;
+				position: relative;
+			}
+			
+			#gallery #fullsize div img {
+				clear: both;
+				display: block;
+				margin: 0 auto;
+				border: 0;
+			}
+			
+			#gallery #fullsize div h3 {
+				padding: 10px 0 0 0;
+				margin: 0;
+				font-size: 18px;
+			}
+			
+			#gallery #fullsize div p {
+				padding: 5px 0;
+				margin: 0;
+				font-size: 12px;
+				line-height: 18px;
+			}
+		</style>
 	</head>
 
 	<body>
-		<h2>分页间隔</h2>
-		<ul class="pagination">
-			<li>
-				<a href="#">«</a>
-			</li>
-			<li>
-				<a href="#">1</a>
-			</li>
-			<li>
-				<a class="active" href="#">2</a>
-			</li>
-			<li>
-				<a href="#">3</a>
-			</li>
-			<li>
-				<a href="#">4</a>
-			</li>
-			<li>
-				<a href="#">5</a>
-			</li>
-			<li>
-				<a href="#">6</a>
-			</li>
-			<li>
-				<a href="#">7</a>
-			</li>
-			<li>
-				<a href="#">»</a>
-			</li>
-		</ul>
+		<div id="gallery">
+			<div id="fullsize">
+				<div id="pic1"> <img src="click/first.png" alt="reading book" />
+					<a class="previous" href="#pic10"><b>Previous</b></a>
+					<a class="next" href="#pic2"><b>Next</b></a>
+					<h3>No.1---看小说---No.1</h3>
+					<p>这一般是我经常在做的事情。
+						<a href="http://www.jjwxc.net/">link</a>.</p>
+				</div>
+				<div id="pic2"> <img src="click/music.png" alt="music" />
+					<a class="previous" href="#pic1"><b>Previous</b></a>
+					<a class="next" href="#pic3"><b>Next</b></a>
+					<h3>No.2---听音乐---No.2</h3>
+					<p>这是下课就要做的事，虽然听多了耳朵不好。
+						<a href="https://www.baidu.com/link?url=ADznq6RAQ_fWJcuxCxEjUtL8e79rp1rGScm_OG0_c__&wd=&eqid=b320c89900001d7f000000055dba49a8">link</a>.</p>
+				</div>
+				<div id="pic3"> <img src="click/draw.png" alt="draw" />
+					<a class="previous" href="#pic2"><b>Previous</b></a>
+					<a class="next" href="#pic4"><b>Next</b></a>
+					<h3>No.3---画画---No.3</h3>
+					<p>这个玩的少了，现在没什么时间。
+						<a href="https://tieba.baidu.com/f?kw=%BB%E6%BB%AD&fr=ala0&tpl=5&traceid=">link</a>.</p>
+				</div>
+				<!--<div id="pic4"> <img src="click/pic4.jpg" alt="Bird of prey" />
+					<a class="previous" href="#pic3"><b>Previous</b></a>
+					<a class="next" href="#pic5"><b>Next</b></a>
+					<h3>Bird of prey</h3>
+					<p>And another line of descriptive text and maybe a
+						<a href="http://www.mobanwang.com/">link</a>.</p>
+				</div>
+				<div id="pic5"> <img src="click/pic5.jpg" alt="Bird on barbed wire" />
+					<a class="previous" href="#pic4"><b>Previous</b></a>
+					<a class="next" href="#pic6"><b>Next</b></a>
+					<h3>Bird on barbed wire</h3>
+					<p>With descriptive text and maybe a
+						<a href="http://www.mobanwang.com/">link</a>.</p>
+				</div>
+				<div id="pic6"> <img src="click/pic6.jpg" alt="Isn't he cute" />
+					<a class="previous" href="#pic5"><b>Previous</b></a>
+					<a class="next" href="#pic7"><b>Next</b></a>
+					<h3>Isn't he cute?</h3>
+					<p>A description of the picture can go here with a
+						<a href="http://www.mobanwang.com/">link</a>.</p>
+				</div>
+				<div id="pic7"> <img src="click/pic7.jpg" alt="Ladybirds" />
+					<a class="previous" href="#pic6"><b>Previous</b></a>
+					<a class="next" href="#pic8"><b>Next</b></a>
+					<h3>Ladybirds</h3>
+					<p>Descriptive text and maybe a
+						<a href="http://www.mobanwang.com/">link</a>.</p>
+				</div>
+				<div id="pic8"> <img src="click/pic8.jpg" alt="Dragonfly" />
+					<a class="previous" href="#pic7"><b>Previous</b></a>
+					<a class="next" href="#pic9"><b>Next</b></a>
+					<h3>Dragonfly</h3>
+					<p>The text can be over as many lines as you want, but you may need to adjust the size of the containing div to make sure that it can all be seen. The
+						<a href="http://www.mobanwang.com/">link</a> can be used if you want.</p>
+				</div>
+				<div id="pic9"> <img src="click/pic9.jpg" alt="Grasshopper" />
+					<a class="previous" href="#pic8"><b>Previous</b></a>
+					<a class="next" href="#pic10"><b>Next</b></a>
+					<h3>Grasshopper</h3>
+					<p>Followed by some descriptive text and maybe a
+						<a href="http://www.mobanwang.com/">link</a>.</p>
+				</div>
+				<div id="pic10"> <img src="click/pic10.jpg" alt="Green lizard" />
+					<a class="previous" href="#pic9"><b>Previous</b></a>
+					<a class="next" href="#pic1"><b>Next</b></a>
+					<h3>Green lizard</h3>
+					<p>Another piece of descriptive text and maybe a
+						<a href="http://www.mobanwang.com/">link</a>.</p>
+				</div>-->
+			</div>
+		</div>
 	</body>
 
 </html>
