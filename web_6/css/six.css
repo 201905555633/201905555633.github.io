@@ -42,6 +42,7 @@ a:active{}
 	float: left;
 	margin-left: 5px;
 	margin-top: 3px;
+	display: inline-block;
 }
 .jiushi{
 	font-family: "宋体";
@@ -89,22 +90,6 @@ a:active{}
 	background: url(../img/3.png);
 	background-position:0 26px ;
 }
-/*.why1{
-	width: 32px;
-	height: 32px;
-	float: right;
-	margin-left: 10px;
-	background: url(../img/icons (2).png);
-	background-position:0 10px ;
-}
-.why1:hover{
-	width: 32px;
-	height: 32px;
-	float: right;
-	margin-left: 10px;
-	background: url(../img/icons (2).png);
-	background-position:0 29px ;
-}*/
 .QQsign{
 	position: relative;
 	display: inline-block;
@@ -124,12 +109,6 @@ a:active{}
 .QQsign:hover{
 	border: 1px solid #60a5e4;
 }
-/*.search1{
-	width: 50px;
-	height: 32px;
-	align-items: center;
-	border-radius: 3px;
-}*/
 input{
 	width: 170px;
 	height: 30px;
