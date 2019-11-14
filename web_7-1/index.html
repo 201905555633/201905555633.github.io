@@ -10,10 +10,37 @@
 				padding: 0;
 			}
 			
+			.yi {
+				width: 1000px;
+				height: 120px;
+				display: flex;
+				flex-wrap: nowrap;
+			}
+			
+			.pic {
+				width: 466px;
+				height: 107px;
+				float: left;
+				display: flex;
+				flex-wrap: nowrap;
+			}
+			
+			.title {
+				float: left;
+				display: flex;
+				flex-wrap: nowrap;
+			}
+			.aa{
+				float: left;
+			}
+			.intr{
+				margin-top: 20px;
+				margin-left: 50px;
+			}
 			.fan {
 				display: -webkit-flex;
 				-webkit-align-content: center;
-                align-content: center;
+				align-content: center;
 				margin: 0 auto;
 				width: 100%;
 				display: flex;
@@ -31,6 +58,9 @@
 			
 			@media (min-width:400px) {
 				.f div {
+					flex-basis: 49%;
+				}
+				.yi div{
 					flex-basis: 49%;
 				}
 			}
@@ -65,11 +95,15 @@
 				margin-top: 50px;
 			}
 			
-			img {
+			.pro {
 				width: 150px;
 			}
 			
-			img:hover {
+			.logo {
+				width: 466px;
+			}
+			
+			.pro:hover {
 				border: solid cadetblue;
 			}
 			
@@ -101,13 +135,86 @@
 			.p3 a:hover {
 				color: #FF0036;
 			}
+			
+			.search {
+				width: 670px;
+				height: 40px;
+				display: flex;
+				flex-wrap: nowrap;
+			}
+			
+			#myInput {
+				background-image: url('https://static.runoob.com/images/mix/searchicon.png');
+				/* 搜索按钮 */
+				background-position: 10px 6px;
+				/* 定位搜索按钮 */
+				background-repeat: no-repeat;
+				/* 不重复图片 */
+				width: 200px;
+				font-size: 16px;
+				padding: 6px 20px 6px 40px;
+				border: 2px solid #008B8B;
+				float: left;
+			}
+			
+			#myTable {
+				border-collapse: collapse;
+				width: 100px;
+				border: 2px solid #008B8B;
+				font-size: 18px;
+			}
+			
+			#myTable th,
+			#myTable td {
+				padding: 4px;
+				background: #5F9EA0;
+			}
+			
+			#myTable tr {
+				/* 表格添加边框 */
+				border-bottom: 2px solid #5F9EA0;
+				background: ;
+			}
+			
+			#myTable tr.header,
+			#myTable tr:hover {
+				/* 表头及鼠标移动过 tr 时添加背景 */
+				background-color: #008B8B;
+				border: 4px solid white;
+			}
+			
+			a.if {
+				text-decoration: none;
+			}
 		</style>
 	</head>
 
 	<body>
+		<div class="yi">
+			<div class="pic">
+				<img class="logo" src="img/7.png" width="466px" />
+			</div>
+			<div class="intr">
+				<div class="search aa">
+					<span class="kuang">
+					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="本店商品" />
+					<table id="myTable">
+						<tr>
+							<!--<td class="main" style="width: 60px;"><a href="main.html" target="_blank" class="if" style="color: white;">点&nbsp;击&nbsp;搜&nbsp;索</a></td>-->
+						</tr>
+					</table>
+				</span>
+				</div>
+				<div class="name aa">
+					<h2> 欢迎光临无良铺子！</h2>
+				</div>
+			</div>
+
+		</div>
+		</div>
 		<div class="fan">
 			<div class="f">
-				<div class="div3"><img src="img/1.png" alt="" /></div>
+				<div class="div3"><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.13.17df5b66CdDYm0&id=542490611512&cm_id=140105335569ed55e27b&abbucket=2&skuId=3519006093631"><img class="pro" src="img/1.png" /></a></div>
 				<div class="div4">
 					<p class="prince">￥99.9</p>
 					<p class="p2">
@@ -119,7 +226,7 @@
 				</div>
 			</div>
 			<div class="f">
-				<div class="div3"><img src="img/2.png" alt="" /></div>
+				<div class="div3"><img class="pro" src="img/2.png" alt="" /></div>
 				<div class="div4">
 					<p class="prince">￥999.9</p>
 					<p class="p2">
@@ -131,7 +238,7 @@
 				</div>
 			</div>
 			<div class="f">
-				<div class="div3"><img src="img/3.png" alt="" /></div>
+				<div class="div3"><img class="pro" src="img/3.png" alt="" /></div>
 				<div class="div4">
 					<p class="prince">￥9999.9</p>
 					<p class="p2">
@@ -143,7 +250,7 @@
 				</div>
 			</div>
 			<div class="f">
-				<div class="div3"><img src="img/4.png" alt="" /></div>
+				<div class="div3"><img class="pro" src="img/4.png" alt="" /></div>
 				<div class="div4">
 					<p class="prince">￥99999.9</p>
 					<p class="p2">
@@ -155,7 +262,7 @@
 				</div>
 			</div>
 			<div class="f">
-				<div class="div3"><img src="img/5.png" alt="" /></div>
+				<div class="div3"><img class="pro" src="img/5.png" alt="" /></div>
 				<div class="div4">
 					<p class="prince">￥999999.9</p>
 					<p class="p2">
