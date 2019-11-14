@@ -1,0 +1,57 @@
+ul {
+	display: flex;
+	flex-flow: row wrap;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+ul li {
+	display: block;
+	list-style: none;
+	flex-basis: 50%;
+	height: 600px;
+	text-align: center;
+	line-height: 42px;	
+}
+h3{
+	font-weight: bold;
+	font-size: 30px;
+}
+.dis{
+	width: 95%;
+}
+.hh{
+	width: 300px;
+	margin: 0 auto;
+}
+.hh p{
+	color: rgba(119,119,119,0.5);
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+	color: rgba(0,103,184,0.7);
+	font-size: 18px;
+}
+a:hover{
+	font-size: 20px;
+	color: rgba(0,103,184,1);
+}
+img:hover{
+	opacity: 0.9;
+}
+
+@media only screen and (min-width:1350px) {
+	ul {
+		flex-flow: row nowrap;
+		flex-basis: 100%;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	ul li {
+		flex-basis: 100%;
+
+	}
+}

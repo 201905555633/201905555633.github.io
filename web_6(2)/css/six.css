@@ -161,7 +161,7 @@ input{
 	color: #14539a;
 	background-color: #cbeled;
 }
-.nav-item:hover{
+.nav-item li a:hover{
 	background-color: #cbeled;
 }
 .pic{
