@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>加加减减</title>
+		<style>
+			#box {
+				width: 800px;
+				margin: 30px auto;
+			}
+			
+			table {
+				width: 500px;
+				border: 1px solid gray;
+				border-collapse: collapse;
+				margin-top: 30px;
+				
+			}
+			
+			table th {
+				line-height: 30px;
+				text-align: center;
+				border: 1px solid gray;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="left">
+			<h3>学生证信息统计</h3>
+			<label>1.学号</label>
+			<input type="text" id="id-number" />
+			<br />
+			<br />
+			<label>2.姓名</label>
+			<input type="text" id="name" />
+			<br />
+			<br />
+			<label>3.性别</label>
+			<input type="text" id="sex" />
+			<br />
+			<br />
+			<label>4.联系方式</label>
+			<input type="text" id="phone" />
+			<br />
+			<br />
+			<button id="addchild" onclick="addchild()">确认提交</button>
+		</div>
+		<!--<script type="text/javascript">
+			
+		</script>-->
+		<div class="right">
+			<table>
+				<caption>学生证信息统计</caption>
+				<tr>
+					<th>学号</th>
+					<th>姓名</th>
+					<th>性别</th>
+					<th>联系方式</th>
+					<th>修改</th>
+				</tr>
+			</table>
+		</div>
+		<script type="text/javascript">
+			var Fan=document.getElementById("left");
+			var Fid=document.getElementById("id-number");
+			var Fn=document.getElementById("name");
+			var Fs=document.getElementById("sex");
+			var Fp=document.getElementById("phone");
+			var Yid=Fid.value;
+			var Yn=Fn.value;
+			var Ys=Fs.value;
+			var Yp=Fp.value;
+			function addchild(){
+				if(Yid==""||Yn==""||Ys==""||Yp==""){
+					alert("请如实填写完信息,均不能为空！");
+					return;
+				}
+				var tr=createTr(Yid,Yn,Ys,Yp,cutdown);
+			    var tab=document.getElementsByTagName("table");
+			    tab.appendChild(tr);
+			    Fan.appendChild(tab);
+			    Fid.value="";
+			    Fn.value="";
+			    Fs.value="";
+			    Fp.value="";
+			}
+			function createTr(ct1,ct2,ct3,ct4,isTh){
+				var tr=document.createElement("id");
+				var td1=creatTd(ct1,isTh);
+				var td2=creatTd(ct2,isTh);
+				var td3=creatTd(ct3,isTh);
+				var td4=creatTd(ct4,isTh);
+				var td5=document.createElement("td");
+				if(!=isTh){
+					var _link=document.createElement("a");
+					_link.href="#";
+					_link.innerHTML="删除";
+					td5.appendChild(_link);
+					td5.onclick=function(){
+						if(confirm=（确认删除？）){
+							this.parentNode.parentNode.removeChild(this.parentNode);
+						}
+					};
+				}else{
+					td5.innerHTML="操作";
+				}
+				tr.appendChild(td1);
+				tr.appendChild(td2);
+				tr.appendChild(td3);
+				tr.appendChild(td4);
+				tr.appendChild(td5);
+				return tr;
+			}
+			function createTr(content,isTh){
+				var td;
+				if(isTh){
+					td=document.createElement("th");
+				}else{
+					td=document.createElement("td");
+				}
+				td.innerHTML=content;
+				return id;
+			}
+		</script>
+	</body>
+
+</html>

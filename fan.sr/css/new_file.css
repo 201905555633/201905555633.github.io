@@ -44,13 +44,13 @@ a:hover {
 	margin-right: 50px;
 	float: left;
 }
-.f1:hover {
+/*.f1:hover {
 	border: 3px;
 	background-color: black;
 	background-image: url(../img/3.png);
 	background-repeat: no-repeat;
 	background-position: center;
-}
+}*/
 
 .f2 {
 	width: 400px;
@@ -82,38 +82,6 @@ a:hover {
 	box-shadow: 0px 10px 77px -17px rgba(0, 0, 0, 0.44);
 	overflow: hidden;
 }
-
-.work1 img {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 0;
-	transition: all 0.4s ease-out;
-}
-.work1 p {
-	font-size: xx-large;
-	font-weight: 100;
-	margin-top: 0px;
-	line-height: 25px;
-	transform: translateX(-200px);
-	transition-delay: 0.1s;
-}
-.work1:hover {
-	box-shadow: 0px 10px 77px -17px rgba(0, 0, 0, 0.64);
-	transform: scale(1.05);
-}
-
-.work1:hover img {
-	opacity: 1;
-}
-
-.work1:hover .animate-text {
-	transform: translateX(0);
-	opacity: 1;
-}
-
 .work2 {
 	width: 100px;
 	height: 250px;
@@ -129,7 +97,7 @@ a:hover {
 	overflow: hidden;
 }
 
-.work2 img {
+.aa img {
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -138,7 +106,7 @@ a:hover {
 	z-index: 0;
 	transition: all 0.4s ease-out;
 }
-.work2 p {
+.aa p {
 	font-size: xx-large;
 	font-weight: 100;
 	margin-top: 0px;
@@ -146,16 +114,16 @@ a:hover {
 	transform: translateX(-200px);
 	transition-delay: 0.1s;
 }
-.work2:hover {
+.aa:hover {
 	box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.64);
 	transform: scale(1.05);
 }
 
-.work2:hover img {
+.aa:hover img {
 	opacity: 1;
 }
 
-.work2:hover .animate-text {
+.aa:hover .animate-text {
 	transform: translateX(0);
 	opacity: 1;
 }
@@ -172,44 +140,11 @@ a:hover {
 	transition: all 0.4s ease-out;
 	box-shadow: 0px 10px 77px -17px rgba(0, 0, 0, 0.44);
 	overflow: hidden;
-}
-
-.work3 img {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 0;
-	transition: all 0.4s ease-out;
-}
-.work3 p {
-	font-size: xx-large;
-	font-weight: 100;
-	margin-top: 0px;
-	line-height: 25px;
-	transform: translateX(-200px);
-	transition-delay: 0.1s;
 }
 .animate-text {
 	opacity: 0;
 	transition: all 0.6s ease-in-out;
 }
-
-.work3:hover {
-	box-shadow: 0px 10px 77px -17px rgba(0, 0, 0, 0.64);
-	transform: scale(1.05);
-}
-
-.work3:hover img {
-	opacity: 1;
-}
-
-.work3:hover .animate-text {
-	transform: translateX(0);
-	opacity: 1;
-}
-
 .f4 {
 	width: 400px;
 	height: 450px;
@@ -231,46 +166,6 @@ a:hover {
 	transition: all 0.4s ease-out;
 	box-shadow: 0px 10px 77px -17px rgba(0, 0, 0, 0.44);
 	overflow: hidden;
-}
-
-.work3 img {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 0;
-	transition: all 0.4s ease-out;
-}
-.work3 p {
-	font-size: xx-large;
-	font-weight: 100;
-	margin-top: 0px;
-	line-height: 25px;
-	transform: translateX(-200px);
-	transition-delay: 0.1s;
-}
-.work3:hover {
-	box-shadow: 0px 10px 77px -17px rgba(0, 0, 0, 0.64);
-	transform: scale(1.05);
-}
-
-.work3:hover img {
-	opacity: 1;
-}
-
-.work3:hover .animate-text {
-	transform: translateX(0);
-	opacity: 1;
-}
-
-.f4 {
-	width: 400px;
-	height: 450px;
-	background-color: black;
-	background-color: rgba(0, 0, 0, 0.5);
-	box-shadow: 10px 10px 5px #888888;
-	;
 }
 .work4 {
 	width: 100px;
@@ -286,41 +181,10 @@ a:hover {
 	box-shadow: 0px 10px 77px -17px rgba(0, 0, 0, 0.44);
 	overflow: hidden;
 }
-
-.work4 img {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 0;
-	transition: all 0.4s ease-out;
-}
-.work4 p {
-	font-size: xx-large;
-	font-weight: 100;
-	margin-top: 0px;
-	line-height: 25px;
-	transform: translateX(-200px);
-	transition-delay: 0.1s;
-}
-.work4:hover {
-	box-shadow: 0px 10px 77px -17px rgba(0, 0, 0, 0.64);
-	transform: scale(1.05);
-}
-
-.work4:hover img {
-	opacity: 1;
-}
-
-.work4:hover .animate-text {
-	transform: translateX(0);
-	opacity: 1;
-}
 .work5 {
 	width: 100px;
 	height: 200px;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 	margin-left: 15px;
 	margin-right: 10px;
 	display: inline-block;
@@ -330,37 +194,6 @@ a:hover {
 	transition: all 0.4s ease-out;
 	box-shadow: 0px 10px 77px -17px rgba(0, 0, 0, 0.44);
 	overflow: hidden;
-}
-
-.work5 img {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 0;
-	transition: all 0.4s ease-out;
-}
-.work5 p {
-	font-size: xx-large;
-	font-weight: 100;
-	margin-top: 0px;
-	line-height: 25px;
-	transform: translateX(-200px);
-	transition-delay: 0.1s;
-}
-.work5:hover {
-	box-shadow: 0px 10px 77px -17px rgba(0, 0, 0, 0.64);
-	transform: scale(1.05);
-}
-
-.work5:hover img {
-	opacity: 1;
-}
-
-.work5:hover .animate-text {
-	transform: translateX(0);
-	opacity: 1;
 }
 .f6{
 	width: 950px;
@@ -385,37 +218,6 @@ a:hover {
 	box-shadow: 0px 10px 77px -17px rgba(0, 0, 0, 0.44);
 	overflow: hidden;
 }
-
-.work6 img {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 0;
-	transition: all 0.4s ease-out;
-}
-.work6 p {
-	font-size: xx-large;
-	font-weight: 100;
-	margin-top: 0px;
-	line-height: 25px;
-	transform: translateX(-200px);
-	transition-delay: 0.1s;
-}
-.work6:hover {
-	box-shadow: 0px 10px 77px -17px rgba(0, 0, 0, 0.64);
-	transform: scale(1.05);
-}
-
-.work6:hover img {
-	opacity: 1;
-}
-
-.work6:hover .animate-text {
-	transform: translateX(0);
-	opacity: 1;
-}
 .work7 {
 	width: 100px;
 	height: 136px;
@@ -432,7 +234,7 @@ a:hover {
 	overflow: hidden;
 }
 
-.work7 img {
+.bb img {
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -441,7 +243,7 @@ a:hover {
 	z-index: 0;
 	transition: all 0.4s ease-out;
 }
-.work7 p {
+.bb p {
 	font-size: x-large;
 	font-weight: 50;
 	margin-top: 0px;
@@ -449,16 +251,31 @@ a:hover {
 	transform: translateX(-200px);
 	transition-delay: 0.1s;
 }
-.work7:hover {
+.bb:hover {
 	box-shadow: 0px 10px 77px -17px rgba(0, 0, 0, 0.64);
 	transform: scale(1.05);
 }
 
-.work7:hover img {
+.bb:hover img {
 	opacity: 1;
 }
 
-.work7:hover .animate-text {
+.bb:hover .animate-text {
 	transform: translateX(0);
 	opacity: 1;
+}
+.work8 {
+	width: 100px;
+	height: 136px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	margin-left: 15px;
+	margin-right: 10px;
+	display: inline-block;
+	background-size: cover;
+	position: relative;
+	cursor: pointer;
+	transition: all 0.4s ease-out;
+	box-shadow: 0px 10px 77px -17px rgba(0, 0, 0, 0.44);
+	overflow: hidden;
 }
