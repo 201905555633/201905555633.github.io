@@ -4,17 +4,16 @@
 		<meta charset="UTF-8">
 		<title></title>
 	</head>
-	<body onload="showalert()">
-			<label>请你输入你的名字</label>
-		    <input id="input1" type="text" value="" onfocus="changeBgc()" onfocusout="" />
-		    <a href="" target="_blank"></a>
-		
-		
+	<body >
+		<a id="a1" href="#" target="_blank">这是一个按钮</a>
+		<button id="btn1" onclick="bangding()">绑定按钮</button>
 		<script type="type/javascript">
-			function changeBgc(){
-				var obj=document.getElementById("input1");
-				obj.style.backgroundColor="yellowgreen";
-				}
+			function bangding(){
+				var obj=document.getElementById("a1");
+				obj.innerHTML=obj.innerHTML+"click event is already assigner!"
+			    obj.addEventlistener("click",function(){
+				alert("警告！");
+			})
 			}
 		</script>
 	</body>

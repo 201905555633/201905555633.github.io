@@ -46,7 +46,7 @@
 			</form>
 			<br />
 			<br />
-			<button onclick="createNewTr()">确认提交</button>
+			<button onclick="ANew()">确认提交</button>
 			<table id="tabl">
 				<caption>学生证信息统计</caption>
 				<tr>
@@ -62,13 +62,13 @@
 					<th>嬲</th>
 					<th>155XXxxxx</th>
 					<th>
-						<a href='javascript:void(0)' onclick='removeRow(this)'>删除</a>
+						<a href='javascript:void(0)' onclick='delect(this)'>删除</a>
 					</th>
 				</tr>
 			</table>
 		</div>
 		<script type="text/javascript">
-			function createNewTr() {
+			function ANew() {
 				var fidnumber=idnumber.value;
 				var fname=name.value;
 				var fsex=sex.value;
@@ -99,10 +99,10 @@
 
 				th5 = document.createElement("th");
 				newTr.appendChild(th5);
-				th5.innerHTML = "<a href='javascript:void(0)' onclick='removeRow(this)'>删除</a>";
+				th5.innerHTML = "<a href='javascript:void(0)' onclick='delect(this)'>删除</a>";
 			}
 
-			function removeRow(its) {
+			function delect(its) {
 				alert("删除成功！");
 				var delRow = its.parentNode.parentNode;
 				delRow.parentNode.removeChild(delRow);
