@@ -80,23 +80,18 @@
 				tab = document.getElementById("tabl");
 				newTr = document.createElement("tr");
 				tab.appendChild(newTr);
-
 				th1 = document.createElement("th");
 				newTr.appendChild(th1);
 				th1.innerHTML = document.fan.idnumber.value;
-
 				th2 = document.createElement("th");
 				newTr.appendChild(th2);
 				th2.innerHTML = document.fan.name.value;
-
 				th3 = document.createElement("th");
 				newTr.appendChild(th3);
 				th3.innerHTML = document.fan.sex.value;
-
 				th4 = document.createElement("th");
 				newTr.appendChild(th4);
 				th4.innerHTML = document.fan.phone.value;
-
 				th5 = document.createElement("th");
 				newTr.appendChild(th5);
 				th5.innerHTML = "<a href='javascript:void(0)' onclick='delect(this)'>删除</a>";
