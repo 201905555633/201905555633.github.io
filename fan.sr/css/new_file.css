@@ -44,14 +44,6 @@ a:hover {
 	margin-right: 50px;
 	float: left;
 }
-/*.f1:hover {
-	border: 3px;
-	background-color: black;
-	background-image: url(../img/3.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}*/
-
 .f2 {
 	width: 400px;
 	height: 800px;
@@ -277,5 +269,18 @@ a:hover {
 	cursor: pointer;
 	transition: all 0.4s ease-out;
 	box-shadow: 0px 10px 77px -17px rgba(0, 0, 0, 0.44);
+	overflow: hidden;
+}
+.work9 {
+	width: 100px;
+	height: 136px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	margin-left: 15px;
+	display: inline-block;
+	background-size: cover;
+	position: relative;
+	cursor: pointer;
+	transition: all 0.4s ease-out;
 	overflow: hidden;
 }
