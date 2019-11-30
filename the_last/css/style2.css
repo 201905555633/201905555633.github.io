@@ -1,0 +1,80 @@
+/* Just setting the page vars */
+html {
+	--font-mono: Consolas, Monaco, 'Andale Mono', monospace;
+
+	--color-magenta: #f06;
+	--color-green: yellowgreen;
+	--color-aqua: hsl(191, 100%, 40%);
+	min-height: 100vh;
+}
+
+body {
+	margin: 0;
+	min-height: 100%;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 2.5rem;
+	background: rgba(0, 0, 0, 0.35);
+	color: white;
+	font-size: 180%;
+}
+
+ul.tree {
+	font: bold 160%/1 var(--font-mono);
+	--dx: 5rem;
+	transition:all 0.5s;
+}
+li{
+	transition:all 0.5s;
+}
+ul.tree, ul.tree ul {
+	margin: 0;
+	padding: 0;
+	transition:all 0.5s;
+}
+
+	ul.tree > li {
+		margin: 0;
+	}
+
+	ul.tree li {
+		position: relative;
+		display: flex;
+		align-items: center;
+		margin: .3em var(--dx);
+		font-size: 75%;
+		transition:all 0.5s;
+	}
+
+	ul.tree span {
+		padding: .3em .5em .15em;
+		background: var(--color-green);
+		border-radius: .4rem;
+		text-shadow: 0 0 3px rgba(0,0,0,.4);
+		white-space: nowrap;
+	}
+
+		ul.tree li  li span::before {
+			content: "";
+			position: absolute;
+			top: 50%;
+			right: 100%;
+			width: var(--dx);
+			height: calc(.15rem + .05em);
+			transform: translateY(-50%) skewY(calc(var(--angle, 0) * 1deg))  scaleY(calc(1 / var(--cos-angle, 1)));
+			transform-origin: right;
+			background: inherit;
+			background-image: linear-gradient(to right, var(--parent-color), transparent);
+		}
+
+		ul.tree > li li span { /* Second+ level */
+			background: var(--color-magenta);
+			--parent-color: var(--color-green);
+		}
+
+		ul.tree > li li li span { /* Third+ level */
+			background: var(--color-aqua);
+			--parent-color: var(--color-magenta);
+		}
