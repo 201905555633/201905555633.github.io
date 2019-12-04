@@ -1,15 +1,3 @@
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-/* =======================================================
-*
-* 	Template Style 
-*
-* ======================================================= */
 body {
   font-family: "Open Sans", arial, sans-serif;
   font-weight: 400;
@@ -17,10 +5,8 @@ body {
   line-height: 1.7;
   color: #767676;
   background: rgba(232, 232, 232, 0.6);
-  /* START white border*/
   border-left: 20px solid #fff;
   border-right: 20px solid #fff;
-  /* END white border*/
 }
 body:before, body:after {
   content: "";
@@ -31,24 +17,12 @@ body:before, body:after {
   height: 20px;
   z-index: 100;
 }
-@media screen and (max-width: 768px) {
-  body:before, body:after {
-    display: none;
-  }
-}
 body:before {
   top: 0;
 }
 body:after {
   bottom: 0;
 }
-@media screen and (max-width: 768px) {
-  body {
-    border-left: none;
-    border-right: none;
-  }
-}
-
 #page {
   position: relative;
   overflow-x: hidden;
@@ -118,20 +92,8 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 1300px;
   margin: 0 auto;
 }
-@media screen and (max-width: 768px) {
-  .container-wrap {
-    width: 100%;
-    padding: 0 1em;
-  }
-}
-
 .fh5co-nav {
   margin: 4em 0 2em 0;
-}
-@media screen and (max-width: 768px) {
-  .fh5co-nav {
-    margin: 2em 0 2em 0;
-  }
 }
 .fh5co-nav .top-menu {
   padding: 0;
@@ -152,11 +114,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav #fh5co-logo a span {
   color: #F95959;
-}
-@media screen and (max-width: 768px) {
-  .fh5co-nav .menu-1 {
-    display: none;
-  }
 }
 .fh5co-nav ul {
   padding: 0;
@@ -282,11 +239,6 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-video {
   overflow: hidden;
 }
-@media screen and (max-width: 992px) {
-  .fh5co-video {
-    height: 450px;
-  }
-}
 .fh5co-video a {
   z-index: 1001;
   position: absolute;
@@ -344,11 +296,6 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
   margin-bottom: 20px;
 }
-@media screen and (max-width: 768px) {
-  #fh5co-hero {
-    min-height: 500px;
-  }
-}
 #fh5co-hero .btn {
   font-size: 24px;
 }
@@ -370,11 +317,6 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: bottom center;
   min-height: 800px;
   position: relative;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-hero .flexslider .slides li {
-    min-height: 500px;
-  }
 }
 #fh5co-hero .flexslider .slides .overlay {
   position: absolute;
@@ -418,22 +360,11 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 9;
   position: relative;
 }
-@media screen and (max-width: 768px) {
-  #fh5co-hero .flexslider .slider-text {
-    min-height: 500px;
-  }
-}
 #fh5co-hero .flexslider .slider-text > .slider-text-inner {
   position: absolute;
   bottom: 0;
   left: 0;
   padding: 0 2em 3em 0;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-hero .flexslider .slider-text > .slider-text-inner {
-    text-align: left;
-    margin-left: 10px;
-  }
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h1, #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
   margin: 0;
@@ -456,11 +387,6 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h1 a {
   color: #fff;
 }
-@media screen and (max-width: 768px) {
-  #fh5co-hero .flexslider .slider-text > .slider-text-inner h1 {
-    font-size: 24px;
-  }
-}
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
   font-size: 18px;
   line-height: 1.5;
@@ -480,14 +406,6 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 6em 0;
   clear: both;
 }
-@media screen and (max-width: 768px) {
-  #fh5co-contact,
-  #fh5co-work,
-  #fh5co-footer {
-    padding: 3em 1em;
-  }
-}
-
 #fh5co-intro {
   padding: 6em 0 4em 0;
 }
@@ -529,14 +447,6 @@ h1, h2, h3, h4, h5, h6, figure {
 .portfolio-grid img {
   position: relative;
   max-width: 100%;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
 }
 .portfolio-grid .desc {
   z-index: 9;
@@ -551,11 +461,6 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transform: translate3d(0, 20px, 0);
   transform: translate3d(0, 20px, 0);
 }
-@media screen and (max-width: 768px) {
-  .portfolio-grid .desc {
-    opacity: 1;
-  }
-}
 .portfolio-grid .desc h3 {
   color: #fff;
   margin-bottom: 10px;
@@ -565,21 +470,13 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(255, 255, 255, 0.8);
 }
 .portfolio-grid:hover:after {
-  opacity: 1;
+  opacity: 0.8;
 }
 .portfolio-grid:hover .desc {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
-.portfolio-grid:hover img {
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  -o-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
 .detail h2 {
   margin-bottom: 10px;
 }
@@ -711,11 +608,6 @@ input[type="text"] {
   padding: 0;
   margin: 0;
 }
-@media screen and (max-width: 768px) {
-  #fh5co-footer .fh5co-footer-links {
-    margin-bottom: 30px;
-  }
-}
 #fh5co-footer .fh5co-footer-links li {
   padding: 0;
   margin: 0 0 10px 0;
@@ -761,11 +653,6 @@ input[type="text"] {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-offcanvas {
-    display: block;
-  }
 }
 .offcanvas #fh5co-offcanvas {
   -moz-transform: translateX(0px);
@@ -963,12 +850,6 @@ input[type="text"] {
   z-index: 2001;
   border-bottom: none !important;
 }
-@media screen and (max-width: 768px) {
-  .fh5co-nav-toggle {
-    display: block;
-  }
-}
-
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
@@ -1160,22 +1041,10 @@ input[type="text"] {
   padding: 0 !important;
   padding-right: 10px !important;
 }
-@media screen and (max-width: 768px) {
-  .padding-right {
-    padding-right: 0 !important;
-  }
-}
-
 .padding-left {
   padding: 0 !important;
   padding-left: 10px !important;
 }
-@media screen and (max-width: 768px) {
-  .padding-left {
-    padding-left: 0 !important;
-  }
-}
-
 .fh5co-loader {
   position: fixed;
   left: 0px;
@@ -1204,16 +1073,6 @@ input[type="text"] {
 #sticky_item.is_stuck {
   margin-top: 60px;
 }
-
-@media screen and (max-width: 992px) {
-  .sticky-parent {
-    clear: both;
-    height: inherit !important;
-    float: left;
-    padding-top: 30px;
-  }
-}
-
 form label {
   font-weight: normal !important;
 }
@@ -1248,5 +1107,3 @@ form .error {
   font-weight: bold;
   font-size: 16px;
 }
-
-/*# sourceMappingURL=style.css.map */

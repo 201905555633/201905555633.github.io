@@ -34,13 +34,13 @@ body {
     overflow-y: hidden; }
 
 a {
-  color: #F9CE00;
+  color: #F95959;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover {
-    text-decoration: underline;
-    color: #F9CE00; }
+    text-decoration: none;
+    color: #F95959; }
   a:focus, a:active {
     outline: none; }
 
@@ -487,7 +487,7 @@ header {
   .about-flex .col-half {
     width: 50%;
     display: block;
-    overflow: scroll; }
+    overflow: auto; }
   .about-flex .about-img {
     z-index: -1; }
   .about-flex .display-t {
